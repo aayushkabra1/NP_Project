@@ -16,10 +16,20 @@
 #include <string.h>
 #include <linux/if.h>
 
+int quit(char message[100]) {
+    return tolower(message[0]) == 'q' && tolower(message[1]) == 'u' && tolower(message[2]) == 'i' && tolower(message[3]) == 't';
+}
 
 void * worker(void * arg) {
     int newSocket = *((int *)arg);
-    
+    char message[100];
+    pid_t tid = syscall(SYS_gettid);
+    while(1) {
+        read(newSocket, &message, sizeof message);
+        if (quit(message)) break;
+        printf("%d: %s\n", tid, message);
+    }
+    printf("\n%d: My client said quit, so I am exiting now.\n", tid);
     close(newSocket);
     pthread_exit(NULL);
 }
@@ -59,12 +69,8 @@ int main(int argc, char const *argv[])
     sleep(2);
     printf("Server started on %s:%d\n" , inet_ntoa(( (struct sockaddr_in *)&ifr.ifr_addr )->sin_addr), serverPort);
     sleep(1);
-    printf("\nWaiting for clients...\n");
+    printf("\nWaiting for clients...\n\n");
     listen(serverSocket, 5);
-
-    // Print the global IP Address of this system
-    
-
 
     pthread_t threadID;
     while(1) {
