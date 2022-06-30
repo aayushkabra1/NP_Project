@@ -1,0 +1,15 @@
+Script started on 2022-03-29 09:24:05-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="171" LINES="42"]
+                                                                                                                                                                           ]0;kali@kali: ~/Desktop/NP/3[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/NP/3[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32m.[39m[32m.[39m[38;2;153;153;153m/client[39m[39m[4m.[39m[4m/[24m[4m.[4m/[39m[4mc[24m[24m[32m.[24m[32m/[24m[32mc[32ml[32mi[32me[32mn[32mt[39m[?1l>[?2004l
+Enter the IP address of the server: 10.0.2.15
+Enter the port number of the server: 34555
+
+Connected to the server
+Enter a message (< 100): Enter a message (< 100): Hi,     this is from client 1
+Enter a message (< 100): client 1 again
+Enter a message (< 100): quit
+                                                                                                                                                                           ]0;kali@kali: ~/Desktop/NP/3
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/NP/3[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
+
+Script done on 2022-03-29 09:25:50-04:00 [COMMAND_EXIT_CODE="0"]

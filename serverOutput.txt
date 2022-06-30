@@ -1,0 +1,38 @@
+Script started on 2022-03-29 09:23:45-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="171" LINES="42"]
+                                                                                                                                                                           ]0;kali@kali: ~/Desktop/NP/3[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/NP/3[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31mm[0m[39m[1m[31mm[0m[39m[38;2;153;153;153make[39m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m[?1l>[?2004l
+make: Nothing to be done for 'all'.
+                                                                                                                                                                           ]0;kali@kali: ~/Desktop/NP/3
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/NP/3[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32m.[39m[32m.[39m[38;2;153;153;153m/client[39m[39m[4m.[39m[4m/[24m[4m.[4m/[39m[4ms[24m[39m [39m [39m [39m [39m [38;2;153;153;153merver[39m[4ms[39m[4me[24m[24m[32m.[24m[32m/[24m[32ms[24m[32me[32mr[32mv[32me[32mr[39m[?1l>[?2004l
+Enter the port number for server: 3453 55
+
+Starting Server...
+Server started on 10.0.2.15:34555
+
+Waiting for clients...
+173552: 
+
+173552: Hi, this is from client 1
+
+173728: 
+
+173728: Hi, this is from client 2
+
+173552: client 1 again
+
+173728: client 2 again
+
+
+173552: My client said quit, so I am exiting now.
+
+173728: My client said quit, so I am exiting now.
+^C
+                                                                                                                                                                           ]0;kali@kali: ~/Desktop/NP/3
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/NP/3[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[160C 130 [31m[1m[31m⨯[0m[31m[39m[166D[?1h=[?2004h[4mc[24m[4mc[24m[38;2;153;153;153md Desktop/NP/3[39m[14D[4mc[39m[4ml[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153mear[39m[24m[1m[31mc[24m[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
+[H[2J[3J                                                                                                                                                                           ]0;kali@kali: ~/Desktop/NP/3
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/Desktop/NP/3[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
+
+Script done on 2022-03-29 09:26:17-04:00 [COMMAND_EXIT_CODE="0"]
